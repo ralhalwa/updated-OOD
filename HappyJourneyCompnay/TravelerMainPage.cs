@@ -30,7 +30,7 @@ namespace HappyJourneyCompnay
             endDateTimePicker1.Visible = true;
 
             // Create a connection string to connect to your SQL Server
-            SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Database1.mdf;Integrated Security=True");
 
             try
             {
@@ -144,6 +144,18 @@ namespace HappyJourneyCompnay
         private void bookbtn_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void BookFlight_Click(object sender, EventArgs e)
+        {
+         
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            searchFlight searchFlight = new searchFlight();
+            searchFlight.Show();
+            this.Hide();
         }
     }
 }

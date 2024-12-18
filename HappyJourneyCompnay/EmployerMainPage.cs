@@ -21,5 +21,12 @@ namespace HappyJourneyCompnay
         {
 
         }
+
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+            searchFlight searchFlight = new searchFlight();
+            searchFlight.Show();
+            this.Hide();   
+        }
     }
 }

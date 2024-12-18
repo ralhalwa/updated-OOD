@@ -43,6 +43,8 @@ namespace HappyJourneyCompnay
             this.endLabel = new System.Windows.Forms.Label();
             this.endDateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.startDatePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.BookFlight = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -120,7 +122,7 @@ namespace HappyJourneyCompnay
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(391, 156);
+            this.comboBox2.Location = new System.Drawing.Point(395, 155);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(233, 27);
             this.comboBox2.TabIndex = 6;
@@ -129,7 +131,7 @@ namespace HappyJourneyCompnay
             // OneWayRadiobtn
             // 
             this.OneWayRadiobtn.AutoSize = true;
-            this.OneWayRadiobtn.Location = new System.Drawing.Point(123, 70);
+            this.OneWayRadiobtn.Location = new System.Drawing.Point(81, 70);
             this.OneWayRadiobtn.Name = "OneWayRadiobtn";
             this.OneWayRadiobtn.Size = new System.Drawing.Size(93, 23);
             this.OneWayRadiobtn.TabIndex = 7;
@@ -141,7 +143,7 @@ namespace HappyJourneyCompnay
             // startLabel
             // 
             this.startLabel.AutoSize = true;
-            this.startLabel.Location = new System.Drawing.Point(108, 225);
+            this.startLabel.Location = new System.Drawing.Point(77, 225);
             this.startLabel.Name = "startLabel";
             this.startLabel.Size = new System.Drawing.Size(79, 19);
             this.startLabel.TabIndex = 9;
@@ -151,7 +153,7 @@ namespace HappyJourneyCompnay
             // endLabel
             // 
             this.endLabel.AutoSize = true;
-            this.endLabel.Location = new System.Drawing.Point(414, 225);
+            this.endLabel.Location = new System.Drawing.Point(391, 225);
             this.endLabel.Name = "endLabel";
             this.endLabel.Size = new System.Drawing.Size(73, 19);
             this.endLabel.TabIndex = 10;
@@ -160,7 +162,7 @@ namespace HappyJourneyCompnay
             // 
             // endDateTimePicker1
             // 
-            this.endDateTimePicker1.Location = new System.Drawing.Point(428, 257);
+            this.endDateTimePicker1.Location = new System.Drawing.Point(395, 257);
             this.endDateTimePicker1.Name = "endDateTimePicker1";
             this.endDateTimePicker1.Size = new System.Drawing.Size(260, 27);
             this.endDateTimePicker1.TabIndex = 12;
@@ -174,12 +176,34 @@ namespace HappyJourneyCompnay
             this.startDatePicker2.TabIndex = 13;
             this.startDatePicker2.ValueChanged += new System.EventHandler(this.startDatePicker2_ValueChanged);
             // 
+            // BookFlight
+            // 
+            this.BookFlight.Location = new System.Drawing.Point(81, 326);
+            this.BookFlight.Name = "BookFlight";
+            this.BookFlight.Size = new System.Drawing.Size(260, 40);
+            this.BookFlight.TabIndex = 14;
+            this.BookFlight.Text = "Book flight";
+            this.BookFlight.UseVisualStyleBackColor = true;
+            this.BookFlight.Click += new System.EventHandler(this.BookFlight_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(395, 326);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(260, 40);
+            this.button1.TabIndex = 15;
+            this.button1.Text = "search flight";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // TravelerMainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BookFlight);
             this.Controls.Add(this.startDatePicker2);
             this.Controls.Add(this.endDateTimePicker1);
             this.Controls.Add(this.endLabel);
@@ -230,5 +254,7 @@ namespace HappyJourneyCompnay
         private System.Windows.Forms.Label endLabel;
         private System.Windows.Forms.DateTimePicker endDateTimePicker1;
         private System.Windows.Forms.DateTimePicker startDatePicker2;
+        private System.Windows.Forms.Button BookFlight;
+        private System.Windows.Forms.Button button1;
     }
 }
