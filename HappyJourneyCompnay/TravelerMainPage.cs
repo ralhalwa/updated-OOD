@@ -140,11 +140,73 @@ namespace HappyJourneyCompnay
         {
 
         }
-
         private void bookbtn_Click(object sender, EventArgs e)
         {
+            try
+            {
+                // Ensure input validation
+                if (comboBox1.SelectedIndex == -1 || comboBox2.SelectedIndex == -1)
+                {
+                    MessageBox.Show("Please select valid departure and arrival destinations.", "Input Error");
+                    return;
+                }
 
+                string departureCountry = comboBox1.SelectedItem.ToString();
+                string arrivalCountry = comboBox2.SelectedItem.ToString();
+                DateTime startDate = startDatePicker2.Value.Date;
+                DateTime endDate = endDateTimePicker1.Value.Date;
+
+                if (departureCountry == arrivalCountry)
+                {
+                    MessageBox.Show("Departure and arrival destinations cannot be the same.", "Input Error");
+                    return;
+                }
+
+                // Debugging messages
+                MessageBox.Show($"Departure: {departureCountry}, Arrival: {arrivalCountry}, Start Date: {startDate}, End Date: {endDate}", "Debug Info");
+
+                using (SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True"))
+                {
+                    con.Open();
+                    MessageBox.Show("Database connection successful.", "Debug Info");
+
+                    string query = @"SELECT COUNT(*) 
+                             FROM [dbo].[Flight] f
+                             INNER JOIN [dbo].[Destination] d1 ON f.departure_Destination_Id = d1.destination_Id
+                             INNER JOIN [dbo].[Destination] d2 ON f.arrival_Destination_Id = d2.destination_Id
+                             WHERE d1.destination_Country = @departureCountry 
+                               AND d2.destination_Country = @arrivalCountry
+                               AND f.departure_Time >= @startDate 
+                               AND f.arrival_Time <= @endDate";
+
+                    using (SqlCommand cmd = new SqlCommand(query, con))
+                    {
+                        cmd.Parameters.AddWithValue("@departureCountry", departureCountry);
+                        cmd.Parameters.AddWithValue("@arrivalCountry", arrivalCountry);
+                        cmd.Parameters.AddWithValue("@startDate", startDate);
+                        cmd.Parameters.AddWithValue("@endDate", endDate);
+
+                        int flightCount = (int)cmd.ExecuteScalar();
+                        MessageBox.Show($"Flights found: {flightCount}", "Debug Info");
+
+                        if (flightCount > 0)
+                        {
+                            MessageBox.Show("Flight is available. Booking successful!", "Success");
+                        }
+                        else
+                        {
+                            MessageBox.Show("No matching flight found.", "Not Found");
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message, "Error");
+            }
         }
+
+
 
         private void BookFlight_Click(object sender, EventArgs e)
         {
