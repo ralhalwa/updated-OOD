@@ -28,5 +28,10 @@ namespace HappyJourneyCompnay
             searchFlight.Show();
             this.Hide();   
         }
+
+        private void EmployerMainPage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
