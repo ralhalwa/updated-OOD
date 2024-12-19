@@ -62,9 +62,9 @@ namespace HappyJourneyCompnay
                             }
                             else if (userType == "Traveller")
                             {
+                                NewTravelerMainPage travelerMainPage = new NewTravelerMainPage();
+                                travelerMainPage.Show();
                                 this.Close();
-                                TravelerMainPage traveler = new TravelerMainPage();
-                                traveler.Show();
                             }
                             else
                             {

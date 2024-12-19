@@ -19,7 +19,9 @@ namespace HappyJourneyCompnay
 
         private void flightDetailsButton_Click(object sender, EventArgs e)
         {
-
+            FlightDetails details = new FlightDetails();
+            details.Show();
+            this.Hide();
         }
 
         private void searchButton_Click(object sender, EventArgs e)
@@ -32,6 +34,12 @@ namespace HappyJourneyCompnay
         private void EmployerMainPage_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void BookFlight_Click(object sender, EventArgs e)
+        {
+            TravelerMainPage travelerMainPage = new TravelerMainPage();
+            travelerMainPage.Show();
         }
     }
 }

@@ -14,6 +14,7 @@ namespace HappyJourneyCompnay
         private string destination;
         private int flightId;
         private decimal price;
+         
 
         public DateTime ArrivalTime
         {

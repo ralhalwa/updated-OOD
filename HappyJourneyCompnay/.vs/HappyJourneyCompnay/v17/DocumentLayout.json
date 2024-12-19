@@ -1,61 +1,65 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\",
+  "WorkspaceRootPath": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\searchflight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:searchflight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|c:\\users\\dalal\\desktop\\updated-ood\\happyjourneycompnay\\travelermainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:travelermainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|c:\\users\\dell\\documents\\updated-ood\\happyjourneycompnay\\travelermainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\travelermainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:travelermainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\searchflight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:searchflight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\loginpg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\loginpg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:loginpg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\employermainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\employermainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:employermainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\adminmanpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\adminmanpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:adminmanpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
       "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:register.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\adminmanpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\adminmanpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:adminmanpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFE3B9D4-989A-4940-9705-0374E36307B0}|HappyJourneyCompnay.csproj|solutionrelative:admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -77,191 +81,190 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "searchFlight.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\searchFlight.cs",
-              "RelativeDocumentMoniker": "searchFlight.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\searchFlight.cs [Design]",
-              "RelativeToolTip": "searchFlight.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T17:56:57.561Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TravelerMainPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\TravelerMainPage.cs",
+              "Title": "TravelerMainPage.cs",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\TravelerMainPage.cs",
               "RelativeDocumentMoniker": "TravelerMainPage.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\TravelerMainPage.cs [Design]",
-              "RelativeToolTip": "TravelerMainPage.cs [Design]",
+              "ToolTip": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\TravelerMainPage.cs",
+              "RelativeToolTip": "TravelerMainPage.cs",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAYwBABAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T17:57:01.538Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginPg.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\LoginPg.cs",
-              "RelativeDocumentMoniker": "LoginPg.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\LoginPg.cs [Design]",
-              "RelativeToolTip": "LoginPg.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T17:56:54.835Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Payment.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Payment.cs",
-              "RelativeDocumentMoniker": "Payment.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Payment.cs [Design]",
-              "RelativeToolTip": "Payment.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T17:56:39.436Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployerMainPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\EmployerMainPage.cs",
-              "RelativeDocumentMoniker": "EmployerMainPage.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\EmployerMainPage.cs [Design]",
-              "RelativeToolTip": "EmployerMainPage.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T17:55:37.463Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Settings.settings",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Properties\\Settings.settings",
-              "RelativeDocumentMoniker": "Properties\\Settings.settings",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Properties\\Settings.settings",
-              "RelativeToolTip": "Properties\\Settings.settings",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
-              "WhenOpened": "2024-12-18T17:48:24.945Z",
+              "WhenOpened": "2024-12-18T20:03:00.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Register.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Register.cs",
-              "RelativeDocumentMoniker": "Register.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Register.cs [Design]",
-              "RelativeToolTip": "Register.cs [Design]",
+              "Title": "searchFlight.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\searchFlight.cs",
+              "RelativeDocumentMoniker": "searchFlight.cs",
+              "ToolTip": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\searchFlight.cs [Design]",
+              "RelativeToolTip": "searchFlight.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T17:38:43.966Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-18T17:56:57.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "TravelerMainPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\TravelerMainPage.cs",
+              "RelativeDocumentMoniker": "TravelerMainPage.cs",
+              "ToolTip": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\TravelerMainPage.cs [Design]*",
+              "RelativeToolTip": "TravelerMainPage.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T12:06:22.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T17:57:01.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AdminManPage.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\AdminManPage.cs",
-              "RelativeDocumentMoniker": "AdminManPage.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\AdminManPage.cs",
-              "RelativeToolTip": "AdminManPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LoginPg.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\LoginPg.cs",
+              "RelativeDocumentMoniker": "LoginPg.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\LoginPg.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\LoginPg.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T12:16:32.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T17:56:54.835Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Service.cs",
-              "RelativeDocumentMoniker": "Service.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Service.cs",
-              "RelativeToolTip": "Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Payment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Payment.cs",
+              "RelativeDocumentMoniker": "Payment.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Payment.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Payment.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T12:14:02.908Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T17:56:39.436Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AdminManPage.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\AdminManPage.cs",
-              "RelativeDocumentMoniker": "AdminManPage.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\AdminManPage.cs [Design]",
-              "RelativeToolTip": "AdminManPage.cs [Design]",
+              "Title": "EmployerMainPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\EmployerMainPage.cs",
+              "RelativeDocumentMoniker": "EmployerMainPage.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\EmployerMainPage.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\EmployerMainPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T07:01:04.627Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-18T17:55:37.463Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Register.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Register.cs",
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "Properties\\Settings.settings",
+              "ToolTip": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Properties\\Settings.settings",
+              "RelativeToolTip": "Properties\\Settings.settings",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2024-12-18T17:48:24.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Register.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Register.cs",
               "RelativeDocumentMoniker": "Register.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Register.cs",
-              "RelativeToolTip": "Register.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCkAAADeAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Register.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Register.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T17:38:45.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T17:38:43.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T12:06:22.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminManPage.cs",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\AdminManPage.cs",
+              "RelativeDocumentMoniker": "AdminManPage.cs",
+              "ToolTip": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\AdminManPage.cs",
+              "RelativeToolTip": "AdminManPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T12:16:32.297Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Message.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Message.cs",
-              "RelativeDocumentMoniker": "Message.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Message.cs",
-              "RelativeToolTip": "Message.cs",
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Service.cs",
+              "RelativeDocumentMoniker": "Service.cs",
+              "ToolTip": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Service.cs",
+              "RelativeToolTip": "Service.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T12:13:58.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T12:14:02.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminManPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\AdminManPage.cs",
+              "RelativeDocumentMoniker": "AdminManPage.cs",
+              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\AdminManPage.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\AdminManPage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T07:01:04.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Register.cs",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Register.cs",
+              "RelativeDocumentMoniker": "Register.cs",
+              "ToolTip": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Register.cs",
+              "RelativeToolTip": "Register.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCkAAADeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T17:38:45.507Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Admin.cs",
-              "RelativeDocumentMoniker": "Admin.cs",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\Admin.cs",
-              "RelativeToolTip": "Admin.cs",
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Message.cs",
+              "RelativeDocumentMoniker": "Message.cs",
+              "ToolTip": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Message.cs",
+              "RelativeToolTip": "Message.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T12:08:12.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T12:13:58.733Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Admin.cs",
+              "RelativeDocumentMoniker": "Admin.cs",
+              "ToolTip": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Admin.cs",
+              "RelativeToolTip": "Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T12:08:12.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "HappyJourneyCompnay",
-              "DocumentMoniker": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\HappyJourneyCompnay.csproj",
+              "DocumentMoniker": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\HappyJourneyCompnay.csproj",
               "RelativeDocumentMoniker": "HappyJourneyCompnay.csproj",
-              "ToolTip": "C:\\Users\\Dell\\Documents\\updated-OOD\\HappyJourneyCompnay\\HappyJourneyCompnay.csproj",
+              "ToolTip": "C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\HappyJourneyCompnay.csproj",
               "RelativeToolTip": "HappyJourneyCompnay.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-17T08:03:27.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "dbo.User.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DELL_DESKTOP_NEW_OOD_HAPPYJOURNEYCOMPNAY_DATABASE1.MDF/True/SqlTable/dbo.User.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_LocalDB__MSSQLLocalDB/C__USERS_DELL_DESKTOP_NEW_OOD_HAPPYJOURNEYCOMPNAY_DATABASE1.MDF/True/SqlTable/dbo.User.sql",

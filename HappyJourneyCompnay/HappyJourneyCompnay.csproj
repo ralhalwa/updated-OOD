@@ -136,6 +136,12 @@
     </Compile>
     <Compile Include="Flight.cs" />
     <Compile Include="FlightCategory.cs" />
+    <Compile Include="FlightDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlightDetails.Designer.cs">
+      <DependentUpon>FlightDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +155,12 @@
       <DependentUpon>LoginPg.cs</DependentUpon>
     </Compile>
     <Compile Include="Message.cs" />
+    <Compile Include="NewTravelerMainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewTravelerMainPage.Designer.cs">
+      <DependentUpon>NewTravelerMainPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="Payment.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -192,11 +204,17 @@
     <EmbeddedResource Include="EmployerMainPage.resx">
       <DependentUpon>EmployerMainPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FlightDetails.resx">
+      <DependentUpon>FlightDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginPg.resx">
       <DependentUpon>LoginPg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewTravelerMainPage.resx">
+      <DependentUpon>NewTravelerMainPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Payment.resx">
       <DependentUpon>Payment.cs</DependentUpon>

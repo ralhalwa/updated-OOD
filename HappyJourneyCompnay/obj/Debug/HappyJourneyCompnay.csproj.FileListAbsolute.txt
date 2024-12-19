@@ -218,3 +218,6 @@ C:\Users\Dell\Documents\updated-OOD\HappyJourneyCompnay\obj\Debug\HappyJourneyCo
 C:\Users\Dell\Documents\updated-OOD\HappyJourneyCompnay\obj\Debug\HappyJou.88FAA9E1.Up2Date
 C:\Users\Dell\Documents\updated-OOD\HappyJourneyCompnay\obj\Debug\HappyJourneyCompnay.exe
 C:\Users\Dell\Documents\updated-OOD\HappyJourneyCompnay\obj\Debug\HappyJourneyCompnay.pdb
+C:\Users\dalal\Desktop\updated-OOD\HappyJourneyCompnay\obj\Debug\HappyJourneyCompnay.Payment.resources
+C:\Users\dalal\Desktop\updated-OOD\HappyJourneyCompnay\obj\Debug\HappyJourneyCompnay.FlightDetails.resources
+C:\Users\dalal\Desktop\updated-OOD\HappyJourneyCompnay\obj\Debug\HappyJourneyCompnay.NewTravelerMainPage.resources

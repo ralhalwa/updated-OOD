@@ -40,27 +40,24 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(229, 15);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(344, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
+            this.label1.Size = new System.Drawing.Size(0, 19);
             this.label1.TabIndex = 5;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(257, 55);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(386, 80);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 13);
+            this.label2.Size = new System.Drawing.Size(0, 19);
             this.label2.TabIndex = 6;
             // 
             // flightDetailsButton
             // 
-            this.flightDetailsButton.Location = new System.Drawing.Point(8, 138);
-            this.flightDetailsButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flightDetailsButton.Location = new System.Drawing.Point(12, 202);
             this.flightDetailsButton.Name = "flightDetailsButton";
-            this.flightDetailsButton.Size = new System.Drawing.Size(145, 30);
+            this.flightDetailsButton.Size = new System.Drawing.Size(218, 44);
             this.flightDetailsButton.TabIndex = 7;
             this.flightDetailsButton.Text = "Flight Details";
             this.flightDetailsButton.UseVisualStyleBackColor = true;
@@ -68,20 +65,19 @@
             // 
             // BookFlight
             // 
-            this.BookFlight.Location = new System.Drawing.Point(199, 138);
-            this.BookFlight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BookFlight.Location = new System.Drawing.Point(298, 202);
             this.BookFlight.Name = "BookFlight";
-            this.BookFlight.Size = new System.Drawing.Size(145, 30);
+            this.BookFlight.Size = new System.Drawing.Size(218, 44);
             this.BookFlight.TabIndex = 8;
             this.BookFlight.Text = "Book Flight";
             this.BookFlight.UseVisualStyleBackColor = true;
+            this.BookFlight.Click += new System.EventHandler(this.BookFlight_Click);
             // 
             // searchButton
             // 
-            this.searchButton.Location = new System.Drawing.Point(381, 138);
-            this.searchButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.searchButton.Location = new System.Drawing.Point(572, 202);
             this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(145, 30);
+            this.searchButton.Size = new System.Drawing.Size(218, 44);
             this.searchButton.TabIndex = 9;
             this.searchButton.Text = "Search ";
             this.searchButton.UseVisualStyleBackColor = true;
@@ -89,8 +85,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(8, 8);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(0, 0);
             this.pictureBox1.TabIndex = 4;
@@ -98,17 +93,16 @@
             // 
             // EmployerMainPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(533, 308);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.searchButton);
             this.Controls.Add(this.BookFlight);
             this.Controls.Add(this.flightDetailsButton);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "EmployerMainPage";
             this.Text = "EmployerMainPage";
             this.Load += new System.EventHandler(this.EmployerMainPage_Load);

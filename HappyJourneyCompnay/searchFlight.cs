@@ -36,7 +36,7 @@ namespace HappyJourneyCompnay
                 return; // Exit if the input is empty
             }
 
-            using (SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Database1.mdf;Integrated Security=True"))
+            using (SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Database1.mdf;Integrated Security=True"))
             {
                 try
                 {
@@ -109,6 +109,19 @@ namespace HappyJourneyCompnay
 
         }
 
-     
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flightBindingSource_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
