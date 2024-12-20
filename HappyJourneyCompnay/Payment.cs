@@ -60,6 +60,11 @@ namespace HappyJourneyCompnay
             this.Hide();
         }
 
-
+        private void Register_Click(object sender, EventArgs e)
+        {
+            TravelerMainPage tmp = new TravelerMainPage();  
+            tmp.Show();
+            this.Hide();
+        }
     }
 }

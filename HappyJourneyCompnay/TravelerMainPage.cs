@@ -211,11 +211,11 @@ namespace HappyJourneyCompnay
 
         private void BookFlight_Click(object sender, EventArgs e)
         {
-            string departureCountry = comboBox1.Text; // Get the selected departure country from comboBox1
-            string arrivalCountry = comboBox2.Text; // Get the selected arrival country from comboBox2
-            DateTime startDate = startDatePicker2.Value; // Get the selected start date from startDatePicker2
-            DateTime endDate = endDateTimePicker1.Value; // Get the selected end date from endDateTimePicker1
-            decimal price = 1000.00m; // Set a default price for now or retrieve it from another source
+            string departureCountry = comboBox1.Text; // Get the selected departure country
+            string arrivalCountry = comboBox2.Text; // Get the selected arrival country
+            DateTime startDate = startDatePicker2.Value; // Get the selected start date
+            DateTime endDate = endDateTimePicker1.Value; // Get the selected end date
+            decimal price = 1000.00m; // Set a default price
 
             // Input validation
             if (string.IsNullOrEmpty(departureCountry) || string.IsNullOrEmpty(arrivalCountry))
@@ -223,17 +223,14 @@ namespace HappyJourneyCompnay
                 MessageBox.Show("Please select both departure and arrival countries.");
                 return;
             }
+
             if (departureCountry == arrivalCountry)
             {
                 MessageBox.Show("Departure and arrival countries cannot be the same.");
                 return;
             }
-            if (startDate == endDate)
-            {
-                MessageBox.Show("Start and end dates cannot be the same.");
-                return;
-            }
-            if (startDate > endDate)
+
+            if (startDate >= endDate) // Check if start date is greater than or equal to end date
             {
                 MessageBox.Show("End date should be after start date.");
                 return;
@@ -244,7 +241,10 @@ namespace HappyJourneyCompnay
                 using (var conn = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\dalal\\Desktop\\updated-OOD\\HappyJourneyCompnay\\Database1.mdf;Integrated Security=True"))
                 {
                     conn.Open();
-                    using (var command = new SqlCommand("INSERT INTO Flight (departure_Time, arrival_Time, price, departure_Destination_Id, arrival_Destination_Id) VALUES (@departure_Time, @arrival_Time, @price, (SELECT destination_Id FROM Destination WHERE destination_Country = @departure_Country), (SELECT destination_Id FROM Destination WHERE destination_Country = @arrival_Country))", conn))
+                    using (var command = new SqlCommand(@"INSERT INTO Flight (departure_Time, arrival_Time, price, departure_Destination_Id, arrival_Destination_Id) 
+                                                  VALUES (@departure_Time, @arrival_Time, @price, 
+                                                          (SELECT TOP 1 destination_Id FROM Destination WHERE destination_Country = @departure_Country), 
+                                                          (SELECT TOP 1 destination_Id FROM Destination WHERE destination_Country = @arrival_Country))", conn))
                     {
                         command.Parameters.AddWithValue("@departure_Time", startDate);
                         command.Parameters.AddWithValue("@arrival_Time", endDate);
@@ -252,14 +252,21 @@ namespace HappyJourneyCompnay
                         command.Parameters.AddWithValue("@departure_Country", departureCountry);
                         command.Parameters.AddWithValue("@arrival_Country", arrivalCountry);
 
-                        command.ExecuteNonQuery();
+                        int rowsAffected = command.ExecuteNonQuery();
 
-                        MessageBox.Show($"Flight booked successfully!\nDeparture: {departureCountry}\nArrival: {arrivalCountry}");
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show($"Flight booked successfully!\nDeparture: {departureCountry}\nArrival: {arrivalCountry}");
 
-                        // Redirect to the PaymentForm after successful booking
-                        Payment paymentForm = new Payment();
-                        paymentForm.Show();
-                        this.Hide(); // Hide the current form
+                            // Redirect to the PaymentForm after successful booking
+                            Payment paymentForm = new Payment();
+                            paymentForm.Show();
+                            this.Hide(); // Hide the current form
+                        }
+                        else
+                        {
+                            MessageBox.Show("Booking failed, no rows affected.");
+                        }
                     }
                 }
             }

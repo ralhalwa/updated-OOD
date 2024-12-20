@@ -65,6 +65,14 @@ namespace HappyJourneyCompnay
                                 NewTravelerMainPage travelerMainPage = new NewTravelerMainPage();
                                 travelerMainPage.Show();
                                 this.Close();
+
+                            }
+
+                            else if (userType == "Employee")
+                            { 
+                                EmployerMainPage employerMainPage = new EmployerMainPage(); 
+                                employerMainPage.Show();
+                                this.Close();
                             }
                             else
                             {
